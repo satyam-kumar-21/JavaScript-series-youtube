@@ -154,6 +154,79 @@
 
 // console.log(fruits)
 
-const num = [1,2,3,4,5,6,7,8,9,10]
-num.reverse()
-console.log(num)
+// const num = [1,2,3,4,5,6,7,8,9,10]
+// num.reverse()
+// console.log(num)
+
+
+// // foreach
+
+// let numbers = [10,34,76,47]
+
+// numbers.forEach((ele,idx) => {
+//     console.log(ele,idx)
+// })
+
+// map()
+
+// let numbers = [1,2,3,4,5]
+
+// let doubleNumbers = numbers.map((element) => {
+//     return element*2
+// })
+
+// console.log(doubleNumbers)
+
+
+// reduce()
+
+// let numbers = [1,2,3,4,5,6,7,8,9]
+
+// let sum = numbers.reduce(function (acc,ele){
+//     return acc + ele
+// },0)
+// console.log(sum)
+
+// filter()
+
+// let numbers = [1,2,54,23,43,13,67,58,98]
+
+// let evenNumbers = numbers.filter((element)=>{
+//     return element%2 === 0
+// })
+
+// console.log(evenNumbers)
+
+// find()
+
+// let numbers = [1,2,5,65,34,23,65,13]
+
+// let result = numbers.find((ele) => {
+//     return ele > 34
+// })
+
+// let result1 = numbers.findIndex((ele) => ele > 34)
+
+// console.log(result1)
+
+
+// some and every()
+
+// let numbers = [11,20,12,23,43,19]
+// console.log(numbers.every((element) => element > 10))
+
+
+// sort()
+
+// let numbers = [11,20,12,23,43,19]
+// numbers.sort()
+// numbers.sort((a,b)=> b-a)
+// console.log(numbers)
+
+// flat()
+
+let numbers = [1,2,[4,6,[2,6,[12,43,54]]],23,[5,4,3]]
+
+let result = numbers.flat(3)
+
+console.log(result)

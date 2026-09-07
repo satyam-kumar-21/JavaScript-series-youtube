@@ -225,8 +225,10 @@
 
 // flat()
 
-let numbers = [1,2,[4,6,[2,6,[12,43,54]]],23,[5,4,3]]
+// let numbers = [1,2,[4,6,[2,6,[12,43,54]]],23,[5,4,3]]
 
-let result = numbers.flat(3)
+// let result = numbers.flat(3)
 
-console.log(result)
+// console.log(result)
+
+

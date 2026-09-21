@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Todo App</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Todo App</h1>
+
+    <!-- User Details -->
+    <div class="user-box">
+
+      <h2>User Details</h2>
+
+      <input
+        type="text"
+        id="name"
+        placeholder="Enter your name"
+      >
+
+      <input
+        type="number"
+        id="age"
+        placeholder="Enter your age"
+      >
+
+      <button id="saveUser">
+        Save User
+      </button>
+
+    </div>
+
+
+    <!-- User List -->
+    <div class="todo-box">
+
+      <h2>User List</h2>
+
+      <table>
+
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+
+        <tbody id="todoList">
+        </tbody>
+
+      </table>
+
+    </div>
+
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
